@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import resume from '../../static/';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -50,13 +49,6 @@ const About = () => {
                   {paragraphThree ||
                     'On my freetime I spend time working on my physical health and also learning new cool technologies. I have been an elite athlete in MMA/Kickboxing and also American Football (The real football 😉).'}
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a target="_blank" rel="" className="cta-btn cta-btn--resume" href={resume}>
-                      Resume
-                    </a>
-                  </span>
-                )}
               </div>
             </Fade>
           </Col>
