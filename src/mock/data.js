@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'fourinarow.jpg',
+    img: 'fourinarow.png',
     title: 'Four In a Row Game',
     info: 'A four in a row game made with vanilla JavaScript',
     info2: '',
