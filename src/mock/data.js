@@ -21,19 +21,19 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'resumé.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'fourinarow.jpg',
+    title: 'Four In a Row Game',
+    info: 'A four in a row game made with vanilla JavaScript',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/DennisDemir24/fourinarow', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
