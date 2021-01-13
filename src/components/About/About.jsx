@@ -49,6 +49,13 @@ const About = () => {
                   {paragraphThree ||
                     'On my freetime I spend time working on my physical health and also learning new cool technologies. I have been an elite athlete in MMA/Kickboxing and also American Football (The real football 😉).'}
                 </p>
+                <br />
+                <h4 style={{ fontWeight: 'bold', fontSize: '22px' }}>Skills:</h4>
+                <p className="about-wrapper__info-text">
+                  {
+                    'HTML, CSS, SCSS, JavaScript, React, React-Native, NodeJS, Express, MongoDB, SQL, Docker, Kubernetes, Java/C#'
+                  }
+                </p>
               </div>
             </Fade>
           </Col>

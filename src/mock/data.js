@@ -31,18 +31,18 @@ export const projectsData = [
     img: 'fourinarow.png',
     title: 'Four In a Row Game',
     info: 'A four in a row game made with vanilla JavaScript',
-    info2: '',
+    info2: 'JavaScript, HTML, CSS',
     url: '',
     repo: 'https://github.com/DennisDemir24/fourinarow', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Journalify',
+    info: 'A journal app for private clinics to store and manage patients',
+    info2: 'JavaScript, React, NodeJS, Express, MySQL',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
