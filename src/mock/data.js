@@ -42,8 +42,8 @@ export const projectsData = [
     info:
       'A journal app for private clinics to store and manage patients and their medical journals. (Work In Progress)',
     info2: 'JavaScript, React, NodeJS, Express, MySQL',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    url: 'https://github.com/DennisDemir24/journalify',
+    repo: 'https://github.com/DennisDemir24/journalify', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
