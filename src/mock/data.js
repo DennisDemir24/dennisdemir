@@ -45,15 +45,6 @@ export const projectsData = [
     url: 'https://github.com/DennisDemir24/journalify',
     repo: 'https://github.com/DennisDemir24/journalify', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/dennisdemir24', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
