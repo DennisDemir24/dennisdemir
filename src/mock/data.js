@@ -37,9 +37,10 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'journal.png',
     title: 'Journalify',
-    info: 'A journal app for private clinics to store and manage patients',
+    info:
+      'A journal app for private clinics to store and manage patients and their medical journals. (Work In Progress)',
     info2: 'JavaScript, React, NodeJS, Express, MySQL',
     url: '',
     repo: '', // if no repo, the button will not show up
